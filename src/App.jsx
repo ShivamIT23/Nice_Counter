@@ -1,9 +1,10 @@
-
-import './App.css'
+import Card from "./Card"
 
 function App() {
   return (
-    <p>Hello World!</p>
+    <main>
+      <Card />
+    </main>
   )
 }
 
