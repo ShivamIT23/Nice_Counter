@@ -1,5 +1,5 @@
 export default function Title() {
   return (
-    <h1>Fancy Counter</h1>
+    <h1 className="title"><div>Fancy</div><div>Counter</div></h1>
   )
 }

@@ -1,5 +1,5 @@
-export default function Counter() {
+export default function Counter({count}) {
   return (
-    <p>0</p>
+    <p className="count">{count}</p>
   )
 }
