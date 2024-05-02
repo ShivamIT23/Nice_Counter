@@ -3,7 +3,7 @@ import { handleReset } from "./helper";
 
 export default function Reset({newNumber}) {
   return (
-    <button onClick={()=> handleReset(newNumber)} className="reset-btn">
+    <button onClick={(e)=> handleReset(e,newNumber)} className="reset-btn">
       <ResetIcon className="reset-btn-icon" />
     </button>
   )

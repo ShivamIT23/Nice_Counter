@@ -1,5 +1,5 @@
-export default function Title() {
+export default function Title({locked}) {
   return (
-    <h1 className="title"><div>Fancy</div><div>Counter</div></h1>
+    <h1 className="title">{locked ? (<span> Limit! Buy <b>Pro</b> for &gt; 5</span>): 'Fancy Counter'}</h1>
   )
 }
